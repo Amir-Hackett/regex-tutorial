@@ -1,4 +1,4 @@
-# regex-tutorial
+# Regex-Tutorial
 
 Regular Expressions, or Regex, are helpful tools used across many programming languages to find a specified combination of characters. Regex allows the programmer to search for any variation of a string matching a pattern instead of being limited to a specific, or "literal", query. For example, in a large database with multiple email address entries, a Regex pattern search of [any name]@[any domain].[any extension] will easily find all email addresses.
 
@@ -73,7 +73,6 @@ What is a regex quantifier?
          Zero or More (*)
             a* matches any number of consecutive occurrences of the letter a including no occurrence.
 
-
          One or More (+)
             a+ allows matching of any number with consecutive occurrences, but does not match if there is no occurrence.
 
@@ -81,14 +80,11 @@ What is a regex quantifier?
             apples? will match both apple and apples
             abc?de will act only on whats before the c
 
-
          Specific Quantity x ({x})
             a{3} only matches specifically to the number of occurrences.
 
-
         x or More ({x,})
             a{5,} will match all occurrences of variable "a" greater than or equal to 5. The test will fail for anything less than 5 occurrences.
-
 
         Between x and y ({x,y})
             a{2,6} will match between 2 and 6 occurrences of variable a
@@ -179,4 +175,4 @@ https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-6
 ## Author
 
 This gist was written by Amir Hackett. To see more of Amir's work, please visit his GitHub.
-    [https://github.com/amir-hackett](https://github.com/amir-hackett)
+[https://github.com/amir-hackett](https://github.com/amir-hackett)
